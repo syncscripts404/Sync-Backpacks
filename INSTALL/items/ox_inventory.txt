@@ -1,0 +1,23 @@
+ADD THIS TO YOUR ox_inventory/data/items.lua
+
+['smallbackpack'] = {
+    label = 'Small Backpack',
+    weight = 1000,
+    stack = false,
+    close = true,
+    description = 'A small backpack for extra storage',
+    client = {
+        export = 'Sync-backpacks.openBackpack'
+    }
+},
+
+['largebackpack'] = {
+    label = 'Large Backpack',
+    weight = 1500,
+    stack = false,
+    close = true,
+    description = 'A large backpack for extra storage',
+    client = {
+        export = 'Sync-backpacks.openBackpack'
+    }
+},
